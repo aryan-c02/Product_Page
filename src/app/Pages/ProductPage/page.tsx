@@ -9,7 +9,7 @@ const ProductPage = () => {
 
     return (
         <div className="grid grid-cols-10 gap-0 min-h-screen ">
-            <div className="col-span-2 h-screen">
+            <div className="col-span-2 h-screen overflow-y-auto">
                 <Appbar />
             </div>
             <div className="col-span-8 bg-[#E3E6EC] pt-6 pb-4  pl-3 pr-4">
