@@ -1,19 +1,9 @@
-'use client'
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
-  const router = useRouter();
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    router.push('/pages/ProductPage');
-    setIsLoading(false);
-  }, [])
-
   return (
     <div>
-
+      <Link href={"/Pages/ProductPage"} > Product Page</Link>
     </div>
   );
 }
