@@ -23,7 +23,7 @@ const ProductCardDetails = {
 const ProductPage = () => {
 
     return (
-        <div className="grid grid-cols-10 gap-0 min-h-screen">
+        <div className="grid grid-cols-10 gap-0 min-h-screen bg-green-600">
             <div className="col-span-2 h-screen ">
                 <Appbar />
             </div>
