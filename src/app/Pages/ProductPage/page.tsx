@@ -6,9 +6,8 @@ import ProductDescriptionCard from "@/app/Components/ProductDescriptionCard"
 import { ProductDescriptionDetails, ProductCardDetails } from "@/app/data/data"
 
 const ProductPage = () => {
-
     return (
-        <div className="grid grid-cols-10 gap-0 min-h-screen ">
+        <div className="grid grid-cols-10 gap-0 min-h-screen">
             <div className="col-span-2 h-screen ">
                 <Appbar />
             </div>
@@ -17,7 +16,6 @@ const ProductPage = () => {
                     <span className="text-[#ABB3BF] uppercase text-lg">Discover Products /</span>
                     <span className="text-[#667385] uppercase text-lg">Action Camera Ultra HD1080P...</span>
                 </div>
-
                 <div className="w-24">
                     <button className="flex bg-white rounded-lg  py-2 border shadow flex pl-2 gap-2 rounded bg-[#FAFAFB] mt-6 w-full h-[40px]">
                         <div className="w-6">

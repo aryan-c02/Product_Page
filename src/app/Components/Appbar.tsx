@@ -7,7 +7,7 @@ import { ButtonArray } from "../data/data"
 const Appbar = () => {
     return (
 
-        <div className="flex flex-col justify-center items-center  mt-10 ">
+        <div className="flex flex-col justify-center items-center mt-10 ">
             <div className="mr-40">
                 <Image src='/sellRaze-logo.png' alt="sellRaze-logo" width={56} height={56} />
             </div>
@@ -36,17 +36,12 @@ const Appbar = () => {
 
             <div className="mt-3">
                 <button type="button" className="w-52 h-12 flex items-center pl-4 gap-5 text-gray-900 focus:outline-none bg-white rounded-lg border border-none hover:bg-[#199DFD14] hover:text-blue-700 focus:z-10 ">
-                    <span >
-                        <Image src={"/bell-icon.png"} alt="company-icon" width={20} height={20} />
-                    </span>
-                    <span className="text-[#667385] capitalize text-base font-normal">
-                        Notifications
-                    </span>
+                    <span > <Image src={"/bell-icon.png"} alt="company-icon" width={20} height={20} /> </span>
+                    <span className="text-[#667385] capitalize text-base font-normal">  Notifications </span>
                 </button>
             </div>
-            <div className="mt-8 mr-40  font-semibold text-base text-[#667385]">
-                Menu
-            </div>
+
+            <div className="mt-8 mr-40  font-semibold text-base text-[#667385]"> Menu  </div>
 
             <div className="flex flex-col justify-center items-center gap-2 mt-4">
                 {
