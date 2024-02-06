@@ -14,6 +14,14 @@ export const ProductCardDetails = {
     msrp: 399.01,
 }
 
+export const TrackingCardDetails = {
+      tracking_available: true,
+    epacket: 3.27,
+    lower_days: 40,
+    higher_days: 50,
+    country: "India",
+}
+
 
 export const ButtonArray = [{
     title: "Dashboard",

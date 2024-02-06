@@ -1,5 +1,6 @@
 import Image from "next/image"
 import TrackingCard from "./TreackingCard";
+import { TrackingCardDetails } from "../data/data";
 interface ProductDescriptionCardType {
     description: string,
     feature: string[],
@@ -73,7 +74,7 @@ const ProductDescriptionCard = (props: ProductDescriptionCardType) => {
                     </div>
                 </div>
                 <div>
-                    <TrackingCard />
+                    <TrackingCard {...TrackingCardDetails} />
                 </div>
             </div>
         </div>
