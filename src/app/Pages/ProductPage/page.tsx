@@ -1,8 +1,8 @@
 
 import Image from "next/image"
-import Appbar from "@/app/Components/Appbar/Appbar"
-import ProductCard from "@/app/Components/Appbar/ProductCard"
-import ProductDescriptionCard from "@/app/Components/Appbar/ProductDescriptionCard"
+import Appbar from "@/app/Components/Appbar"
+import ProductCard from "@/app/Components/ProductCard"
+import ProductDescriptionCard from "@/app/Components/ProductDescriptionCard"
 
 
 const ProductDescriptionDetails = {
@@ -24,7 +24,7 @@ const ProductPage = () => {
 
     return (
         <div className="grid grid-cols-10 gap-0 min-h-screen">
-            <div className="col-span-2 h-screen bg-green-600">
+            <div className="col-span-2 h-screen ">
                 <Appbar />
             </div>
             <div className="col-span-8 bg-[#E3E6EC] pt-6 pb-4 overflow-scroll pl-2 pr-1">
