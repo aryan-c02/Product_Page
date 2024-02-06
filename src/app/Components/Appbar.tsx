@@ -21,8 +21,6 @@ const Appbar = () => {
             <div className="flex ">
 
             </div>
-
-
         </div>
     )
 

@@ -16,35 +16,35 @@ const ProductDescriptionDetails = {
 
 const ProductCardDetails = {
     title: "Action Camera Ultra HD1080P Met Go Extreme Pro Cam Video Camcorder Waterproof DV Sports Cam Underwater 30m Camera Accessories",
-    your_cost: 300,
-    msrp: 400,
+    your_cost: 299.01,
+    msrp: 399.01,
 }
 
 const ProductPage = () => {
 
     return (
-        <div className="grid grid-cols-10 gap-0 min-h-screen bg-green-600">
-            <div className="col-span-2 h-screen ">
+        <div className="grid grid-cols-10 gap-0 min-h-screen ">
+            <div className="col-span-2 h-screen">
                 <Appbar />
             </div>
-            <div className="col-span-8 bg-[#E3E6EC] pt-6 pb-4 overflow-scroll pl-2 pr-1">
+            <div className="col-span-8 bg-[#E3E6EC] pt-6 pb-4  pl-3 pr-4">
                 <div>
-                    <span>Discover Products /</span>
-                    <span>Action Camera Ultra HD1080P...</span>
+                    <span className="text-[#ABB3BF] uppercase text-lg">Discover Products /</span>
+                    <span className="text-[#667385] uppercase text-lg">Action Camera Ultra HD1080P...</span>
                 </div>
 
-                <div className="flex items-center justify-center gap-2  bg-[#FAFAFB] mt-6 w-[93px] h-[40px]">
-                    <button className="flex bg-white  py-2 px-4 border shadow">
+                <div className="w-24">
+                    <button className="flex bg-white rounded-lg  py-2 border shadow flex pl-2 gap-2 rounded bg-[#FAFAFB] mt-6 w-full h-[40px]">
                         <div className="w-6">
-                            <Image src="/arrow-right-icon.svg" alt="arrow-icon" width={24} height={24} />
+                            <Image src="/arrow-right-icon.svg" alt="arrow-icon" width={30} height={30} />
                         </div>
-                        <div className="h-6">Back</div>
+                        <div className="h-6 color-[#080C10B8] text-base">Back</div>
                     </button>
                 </div>
-                <div>
+                <div className="mt-6">
                     <ProductCard {...ProductCardDetails} />
                 </div>
-                <div>
+                <div className="mt-6">
                     <ProductDescriptionCard {...ProductDescriptionDetails} />
                 </div>
             </div>
