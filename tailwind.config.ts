@@ -14,6 +14,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    fontFamily : {
+        switzer : ['"switzer"', "sans-serif"],
+        hkgroteks : ['"hk-groteks"', "sans-serif"],
+    }
   },
   plugins: [],
 };
