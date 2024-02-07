@@ -14,7 +14,7 @@ const AppbarButtonComponent = (props: AppbarButtonComponentType) => {
                 <span>
                     <Image className="" src={src} alt="company-icon" width={20} height={20} />
                 </span>
-                <span className="text-[#667385] hover:text-blue-600 capitalize text-base font-normal">
+                <span className="text-[#667385] font-switzer leading-5 hover:text-[#076AFF] capitalize text-base font-medium">
                     {title}
                 </span>
             </button>

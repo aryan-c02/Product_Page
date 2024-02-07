@@ -44,14 +44,14 @@ const ProductCard = (props: ProductCardType) => {
                     </div>
                     <div className="flex gap-6">
                         <div >
-                            <button type="button" className="w-52 text-white flex items-center gap-2 bg-[#076AFF] hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 ">
-                                <span>  Import To Inventory</span>
-                                <span> <Image src="/import-icon.svg" alt="import-icon" width={24} height={24} />        </span>
+                            <button type="button" className="w-52 h-12  text-white flex items-center justify-center gap-2 bg-[#076AFF] hover:bg-blue-800  rounded-lg text-sm ">
+                                <span className="font-switzer text-base leading-5 font-medium">  Import To Inventory</span>
+                                <span > <Image src="/import-icon.svg" alt="import-icon" width={24} height={24} /> </span>
                             </button>
                         </div>
                         <div>
-                            <button type="button" className="w-52 flex items-center gap-2 py-2.5 px-5  text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700">
-                                <span>  View on </span>
+                            <button type="button" className="w-52 h-12 flex items-center justify-center gap-2  text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700">
+                                <span className="font-switzer text-base leading-5 font-medium">  View on </span>
                                 <span> <Image src="/aliExpress-logo.svg" alt="company-icon" width={104} height={24} /></span>
                             </button>
                         </div>
