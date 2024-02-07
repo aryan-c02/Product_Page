@@ -10,7 +10,7 @@ const AppbarButtonComponent = (props: AppbarButtonComponentType) => {
     const { title, src } = props
     return (
         <div>
-            <button type="button" className="w-52 h-12 flex items-center pl-4 gap-5 text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-[#199DFD14]  hover:text-blue-600 focus:z-10  ">
+            <button type="button" className="w-52 h-12 flex items-center pl-4 gap-5 text-gray-900  bg-white rounded-lg  hover:bg-[#199DFD14]  hover:fill-[#076AFF] hover:text-[#076AFF] focus:z-10  ">
                 <span>
                     <Image className="" src={src} alt="company-icon" width={20} height={20} />
                 </span>

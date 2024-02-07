@@ -6,6 +6,7 @@ export const ProductDescriptionDetails = {
         ">Video recording while charging", ">Video recording with battery..."],
     rating: 4,
     supplier: "Amy Wholesale Electronic Co.,Ltd",
+    reviews : 132,
 }
 
 export const ProductCardDetails = {
@@ -23,14 +24,7 @@ export const TrackingCardDetails = {
 }
 
 
-export const ButtonArray = [{
-    title: "Dashboard",
-    src: "/dashboard.svg"
-},
-{
-    title: "Discover Products",
-    src: "/discover-product.svg"
-},
+export const ButtonArray = [
 {
     title: "Inventory",
     src: "/box-icon.svg"

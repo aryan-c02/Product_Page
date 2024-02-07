@@ -6,11 +6,12 @@ interface ProductDescriptionCardType {
     feature: string[],
     rating: number,
     supplier: string,
+    reviews: number,
 
 }
 
 const ProductDescriptionCard = (props: ProductDescriptionCardType) => {
-    const { description, feature, rating, supplier } = props;
+    const { description, feature, rating, supplier, reviews } = props;
     return (
         <div className="flex bg-[#ffffff]  p-6 justify-start  gap-14 rounded-xl">
             <div className="w-4/12 ">
@@ -39,8 +40,14 @@ const ProductDescriptionCard = (props: ProductDescriptionCardType) => {
                     <div className="text-[#667385] text-base font-medium">
                         RATING
                     </div>
-                    <div>
+                    <div className="flex mt-4">
+                        <div>
 
+                        </div>
+
+                        <div className="font-medium text-base text-[#080C10B8] ">
+                            {reviews} Reviews
+                        </div>
                     </div>
                 </div>
                 <div className=" flex flex-col gap-4" >

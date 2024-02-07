@@ -41,13 +41,13 @@ const ProductCard = (props: ProductCardType) => {
 
                     <div className="flex gap-6">
                         <div >
-                            <button type="button" className="w-52 text-white flex items-center gap-2 bg-[#076AFF] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5  dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+                            <button type="button" className="w-52 text-white flex items-center gap-2 bg-[#076AFF] hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 ">
                                 <span>  Import To Inventory</span>
                                 <span> <Image src="/import-icon.svg" alt="import-icon" width={24} height={24} />        </span>
                             </button>
                         </div>
                         <div>
-                            <button type="button" className="w-52 flex items-center gap-2 py-2.5 px-5  text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                            <button type="button" className="w-52 flex items-center gap-2 py-2.5 px-5  text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700">
                                 <span>  View on </span>
                                 <span> <Image src="/aliExpress-logo.svg" alt="company-icon" width={104} height={24} /></span>
                             </button>
@@ -61,7 +61,7 @@ const ProductCard = (props: ProductCardType) => {
                             Color:
                         </div>
                         <div>
-                            <button type="button" className="w-40 flex justify-between items-center gap-2 py-2.5 px-2.5  text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                            <button type="button" className="w-40 flex justify-between items-center gap-2 py-2.5 px-2.5  text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-[#E3E6EC] hover:bg-gray-100 hover:text-blue-700 ">
                                 <span className="text-[#667385] text-base font-normal"> SelectColor  </span>
                                 <span ><Image src="/arrow-down-icon.svg" alt="company-icon" width={20} height={20} /> </span>
                             </button>
@@ -73,7 +73,7 @@ const ProductCard = (props: ProductCardType) => {
                             Size:
                         </div>
                         <div>
-                            <button type="button" className="w-40 flex items-center  justify-between items-center gap-2 py-2.5 px-2.5   text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                            <button type="button" className="w-40 flex items-center  justify-between items-center gap-2 py-2.5 px-2.5   text-sm font-medium text-gray-900  bg-white rounded-lg border border-[#E3E6EC]   hover:bg-gray-100 hover:text-blue-700">
                                 <span className="text-[#667385] text-base font-normal"> SelectSize  </span>
                                 <span ><Image src="/arrow-down-icon.svg" alt="company-icon" width={20} height={20} />  </span>
                             </button>
@@ -85,7 +85,7 @@ const ProductCard = (props: ProductCardType) => {
                             Style:
                         </div>
                         <div>
-                            <button type="button" className="w-40 flex items-center justify-between items-center gap-2 py-2.5 px-2.5  text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                            <button type="button" className="w-40 flex items-center justify-between items-center gap-2 py-2.5 px-2.5  text-sm font-medium text-gray-900  bg-white rounded-lg border border-[#E3E6EC] hover:bg-gray-100 hover:text-blue-700 ">
                                 <span className="text-[#667385] text-base font-normal">   Select Style </span>
                                 <span >  <Image src="/arrow-down-icon.svg" alt="company-icon" width={20} height={20} /></span>
                             </button>
